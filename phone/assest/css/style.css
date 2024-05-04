@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roberto', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden !important;
+}
+
+.first-page {
+    width: 450px;
+    height: 800px;
+    background: url('https://w0.peakpx.com/wallpaper/392/773/HD-wallpaper-falling-money-saving-bank-usa-black-dark-dollars.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.first-page .top {
+    width: 100%;
+    height: 20px;
+    padding: 18px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-page .center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 20px;
+}
+
+.first-page .center .set {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-page .center .set .settings {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: gray;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.first-page .center .sms .message {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #0000ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.first-page .center .tel .phone {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #02ff02;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.first-page .center .tg .telegram {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.first-page .middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    margin-top: 370px;
+}
+
+.first-page .middle .set {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-page .middle .sms .message {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #0000ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.first-page .middle .tel .phone {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #02ff02;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.first-page .middle .cam .camera {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.first-page .bottom {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.first-page .bottom .quit, .quit-2, .quit-3 {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+.phon {
+    width: 450px;
+    height: 800px;
+    background: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.phon .top {
+    width: 100%;
+    height: 20px;
+    padding: 18px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phon .keyboard {
+    width: 100%;
+    height: 400px;
+    /* background: seagreen; */
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.phon .keyboard .first, .second, .third, .fourth, .fiveth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.phon .keyboard .one, .two, .three {
+    width: 33.3%;
+    /* background-color: red; */
+    margin-left: 2px;
+    text-align: center;
+    font-size: 40px
+}
+
+.phon .keyboard .key {
+    width: 33.3%;
+    /* background-color: red; */
+    margin-left: 2px;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.phon .keyboard .key span {
+    font-size: 15px;
+    position: relative;
+    bottom:10px;
+}
+
+.phon .keyboard .tell {
+    background: seagreen;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.phon .middle {
+    width: 100%;
+    height: 20px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.phon .middle .last {
+    margin-left: 20px;
+}
+
+.phon .bottom {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.phon .bottom .quit-10, .quit-11, .quit-12 {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.tg-2 {
+    width: 450px;
+    height: 800px;
+    background: red;
+}
+
+.tg-2 .top {
+    width: 450px;
+    height: 20px;
+    padding: 18px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 3;
+    background: #3a3af9;
+}
+
+.tg-2 .middle {
+    position: fixed;
+    width: 450px;
+    padding: 40px 20px;
+    padding-bottom: 40px !important;
+    background: #3a3af9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    top: 50px;
+}
+
+.tg-2 .middle .btn {
+    padding-right: 10px !important;
+    padding-top: 0 !important;
+}
+
+.tg-2 .center {
+    margin-top: 69px;
+}
+
+.tg-2 .bottom {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 50px;
+    background: blue;
+}
+
+.tg-2 .bottom .quit-16, .quit-17, .quit-18 {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.tg-2 .list-group-item {
+    cursor: pointer;
+    height: 59px !important;
+}
